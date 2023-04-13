@@ -17,9 +17,9 @@
 	}%>
 
 <%
-String year =  request.getParameter("year");
-String month = (String) request.getParameter("month");
-String day = (String) request.getParameter("day");
+String year = request.getParameter("year");
+String month = request.getParameter("month");
+String day = request.getParameter("day");
 
 LocalDate localDate = null;
 if (year == null || month == null || day == null) {
